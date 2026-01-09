@@ -1,0 +1,94 @@
+# Frontend - Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Frontend - Dependencies & Build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Backend - Maven
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/.mvn/timing.properties
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Backend - Compiled Classes
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+
+# IDE - IntelliJ IDEA
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/out/
+
+# IDE - VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# IDE - Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# Environment & Secrets
+**/*.env
+**/*.env.*
+!**/*.env.example
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/secrets.properties
+
+# Database
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/data/
+
+# Docker
+**/volumes/
+**/docker-data/
+
+# OS - Windows
+**/Thumbs.db
+**/Desktop.ini
+**/$RECYCLE.BIN/
+
+# OS - macOS
+.DS_Store
+**/.AppleDouble
+**/.LSOverride
+
+# OS - Linux
+**/*~
+
+# Temporary files
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*.swo
+**/.cache/
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
